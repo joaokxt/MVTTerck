@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="titulo">
+        <h2> Portal de mi familia </h2> 
+    </div>
+    <div class="fila">
+        <div class="columna">
+            <div class="titulo">
+                <h4> PADRE </h4>
+                <p class="descripcion"> Nombre: {{objeto_1.nombre}} </p>
+                <p class="descripcion"> Edad: {{objeto_1.edad}} </p> 
+                <p class="descripcion"> Nacimiento: {{objeto_1.nacimiento}} </p>
+            </div>
+        </div>
+        <div class="columna">
+            <div class="titulo">
+                <h4>MADRE </h4>
+                <p class="descripcion"> Nombre: {{objeto_2.nombre}} </p>
+                <p class="descripcion"> Edad: {{objeto_2.edad}} </p> 
+                <p class="descripcion"> Nacimiento: {{objeto_2.nacimiento}} </p>
+            </div>
+        </div>
+    </div>
+    <div class="titulo">
+        <h4> HERMANA </h4>
+        <p class="descripcion"> Nombre: {{objeto_3.nombre}} </p>
+        <p class="descripcion"> Edad: {{objeto_3.edad}} </p> 
+        <p class="descripcion"> Nacimiento: {{objeto_3.nacimiento}} </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+h2 {
+    color: #ffff;
+    text-align: center;
+}
+
+h4 {
+    color: #ffce8f;
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: Arial;
+    line-height: 2rem;
+}
+
+body {
+    background-image: url(https://image.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148812993.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+.descripcion {
+    color: rgb(255, 255, 255);
+    font size: 12px;
+    text-align: center;
+}
+
+.titulo {
+    background: linear-gradient(to bottom right, #33cccc, #333399); 
+    text-shadow: 1.5px 1.5px 5px black;
+    box-shadow: 1.5px 1.5px 5px darkblue;
+}
+
+.columna {
+    float: left;
+    width: 50%;
+}
+
+.fila:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
